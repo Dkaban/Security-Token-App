@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Security Token by Dustin Kaban</string>
+    <string name="text_title_passCode">Pass Code</string>
+    <string name="text_code">Code</string>
+    <string name="text_timeRemaining">Time Remaining</string>
+    <string name="button_verify">Verify</string>
+    <string name="hint_codeEntry">Enter Code Here...</string>
+
+    <string name="text_verificationSuccess">Verification\nSuccessful</string>
+    <string name="button_pass">Clear Timestamps</string>
+</resources>

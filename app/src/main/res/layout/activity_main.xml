@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_from"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/editText_codeEntry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:inputType="number"
+            android:hint="@string/hint_codeEntry"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text_title_passCode"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_title_passCode"
+            android:textSize="30sp"
+            android:textColor="#3CABFF"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text_code"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_code"
+            android:textSize="30sp"
+            android:textColor="#3CABFF"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text_timeRemaining"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_timeRemaining"
+            android:textSize="30sp"
+            android:textColor="#3CABFF"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/button_verify"
+            android:textSize="30sp"
+            android:onClick="onClickVerify"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
